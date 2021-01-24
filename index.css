@@ -391,14 +391,18 @@
   /* Style the footer image */
   #footer_image {
     width: 100%;
-    height: auto;
+    height: 20em;
     overflow: hidden;
     margin-top: 3%;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border: 0%;
   }
 
   /* Style the footer */
   footer {
     background-color: #F9E7DC;
+    border: 0%;
   }
 
   /* Insert requested bolded text */
@@ -429,7 +433,7 @@
     border-radius: 1rem;
     color: white;
     font-size: 1.4rem;
-    width: 15%;
+    width: 16%;
   }
 
   img {
